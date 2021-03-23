@@ -1,0 +1,14 @@
+.desc {
+  padding-top: 40px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+.desc__text {
+  color: forestgreen;
+  font-size: 40px;
+  text-transform: uppercase;
+}

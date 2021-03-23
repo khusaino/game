@@ -1,0 +1,48 @@
+.header {
+  width: 100%;
+  background-color: #24292e;
+}
+.header__container {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -ms-flex-line-pack: center;
+      align-content: center;
+}
+.control {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+.control__btn {
+  margin-left: 10px;
+  padding: 3px 5px;
+  width: 100%;
+  max-width: 120px;
+  border: none;
+  border-radius: 5px;
+  outline: none;
+  background-color: #2ea44f;
+  cursor: pointer;
+}
+.control__btn:hover {
+  -webkit-box-shadow: 0 0 5px 2px #2ea44f;
+          box-shadow: 0 0 5px 2px #2ea44f;
+}
+.control__btn-pause {
+  background-color: #515dbe;
+}
+.control__btn-pause:hover {
+  -webkit-box-shadow: 0 0 5px 2px #515dbe;
+          box-shadow: 0 0 5px 2px #515dbe;
+}
+.control__btn-stop {
+  background-color: #ff1b3b;
+}
+.control__btn-stop:hover {
+  -webkit-box-shadow: 0 0 5px 2px #ff1b3b;
+          box-shadow: 0 0 5px 2px #ff1b3b;
+}

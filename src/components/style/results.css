@@ -1,0 +1,25 @@
+.result {
+  padding-top: 40px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  color: #000;
+}
+.result__title {
+  margin-bottom: 20px;
+  color: #515dbe;
+}
+.result__table {
+  width: 100%;
+  text-align: center;
+}
+.result__table tbody tr:nth-child(odd) {
+  background-color: #cbffd2ab;
+}

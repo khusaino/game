@@ -1,0 +1,48 @@
+.victory {
+  padding-top: 40px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+.victory__title {
+  margin-bottom: 20px;
+  color: #11cc06;
+  text-transform: uppercase;
+  font-size: 50px;
+}
+.victory__text {
+  color: #437272;
+}
+.victory__input {
+  margin-bottom: 20px;
+  padding: 10px;
+  max-width: 300px;
+  width: 100%;
+  border: none;
+  border-bottom: 1px solid #000;
+  outline: none;
+  color: #000;
+  font-size: 20px;
+  font-family: inherit;
+}
+.victory__btn {
+  margin-left: 10px;
+  padding: 3px 5px;
+  width: 100%;
+  max-width: 120px;
+  border: none;
+  border-radius: 5px;
+  outline: none;
+  background-color: #2ea44f;
+  cursor: pointer;
+}
